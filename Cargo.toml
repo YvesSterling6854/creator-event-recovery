@@ -1,0 +1,13 @@
+[package]
+name = "creator-event-recovery"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "creator_event_recovery"
+path = "src/lib.rs"
+
+[[bin]]
+name = "creator-event-recovery"
+path = "src/main.rs"
